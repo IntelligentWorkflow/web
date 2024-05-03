@@ -1,0 +1,55 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/IntelligentWorkflow/apps.git",
+  "description": "💠 IntelligentWorkflow applications",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "backend-low-code",
+    "automation-pipeline",
+    "data-management",
+    "generative-ai",
+    "paas"
+  ],
+  "author": {
+    "name": "Md Irshad",
+    "email": "mdirshaddev@gmail.com",
+    "url": "https://mdirshad.vercel.app"
+  },
+  "bugs": {
+    "url": "https://github.com/IntelligentWorkflow/web/issues",
+    "email": "mdirshaddev+IntelligentWorkflow@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntelligentWorkflow/web.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.19",
+    "pnpm": ">=8.14"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
